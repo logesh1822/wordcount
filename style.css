@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  
+    justify-content: center;
+    align-items: center;
+    background-image: url("sea.jpg");
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+}
+
+.space {
+    text-align: center;
+ 
+    padding: 20px;
+    width: 25%;
+    border-radius: 0px 10px 122px;
+    
+}
+
+h1 {
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #813636;
+    border-radius: 4px;
+    resize: none;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#word-count {
+    color: #ff0037;
+}
